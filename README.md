@@ -1,101 +1,139 @@
-# Online Bookstore Website (Full-stack Web)
+📚 Online Bookstore Website (Full-stack Web)
 
-Full-stack web application for an online bookstore.  
+Full-stack web application for an online bookstore.
 Users can browse and view book details, while admins can manage book data through an admin panel.
 
 This project was developed as part of my Computer Science studies to practice full-stack web development, database design, and CRUD operations.
 
----
+🚀 Live Demo
 
-## Features
+🔗 Live Website:
+https://www.comsci-rmutp.com/2568gp11/
 
-### User Side
-- Browse and view book details
-- User authentication (login / register)
-- Place orders and checkout system
+🔗 GitHub Repository:
+https://github.com/Melancholiaz/online-bookstore-fullstack
 
-### Admin Side
-- Admin panel for managing books
-- Add, edit, and delete book data (CRUD operations)
-- Upload book images
-- Database-driven book management
+🛠 Tech Stack
 
----
+Frontend: HTML, CSS, JavaScript
 
-## Tech Stack
+Backend: PHP
 
-- **Front-end:** HTML, CSS, JavaScript  
-- **Back-end:** PHP  
-- **Database:** MySQL  
+Database: MySQL
 
----
+Tools: VS Code, XAMPP, phpMyAdmin
 
-## Project Structure
+✨ Features
+👤 User Side
+
+Browse and view book details
+
+User authentication (login / register)
+
+Place orders and checkout system
+
+Responsive and user-friendly interface
+
+🛠 Admin Side
+
+Admin dashboard for managing books
+
+Add, edit, and delete books (CRUD operations)
+
+Upload book images
+
+Database-driven book management system
+
+👨‍💻 What I Did
+
+Developed front-end pages for browsing and viewing books
+
+Built admin panel for managing books (CRUD operations)
+
+Implemented image upload and book information management
+
+Connected website with MySQL database
+
+Designed database structure for book management
+⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+Clone the repository
+
+git clone https://github.com/Melancholiaz/online-bookstore-fullstack.git
+
+
+Move project to XAMPP
+
+Copy the project folder to:
+
+htdocs/
+
+
+Database Setup
+
+Create a MySQL database (e.g. bookstore)
+
+Import the provided .sql file into phpMyAdmin
+
+Database Configuration
+
+Copy db.example.php
+
+Rename it to db.php
+
+Update database credentials:
+
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "bookstore";
+
+
+Run the Project
+
+Start Apache & MySQL in XAMPP
+
+Open browser and go to:
+
+http://localhost/online-bookstore-fullstack
+
+📂 Project Structure
 online-bookstore-fullstack/
-├── index.php
-├── login.php
-├── register.php
-├── logout.php
-├── checkout.php
-├── place_order.php
-├── success.php
-├── db.example.php
-├── script.js
-├── style.css
-├── img/
-│ └── 
-└── README.md
+│
+├── img/                # Book images
+├── index.php           # Homepage
+├── login.php           # Login page
+├── register.php        # Register page
+├── checkout.php        # Checkout system
+├── place_order.php     # Order processing
+├── logout.php          # Logout
+├── db.example.php      # Database config example
+├── script.js           # JavaScript logic
+├── style.css           # Stylesheet
+├── README.md           # Project documentation
 
+🎯 Purpose of This Project
 
----
+Practice full-stack web development
 
-## Database
+Understand client-server interaction
 
-- MySQL database
-- SQL file can be imported for local development
-- Database connection is handled in `db.php` (not included for security reasons)
+Learn database design and CRUD operations
 
----
+Prepare for internship and junior developer roles
 
-## Setup (Local Development)
+👤 Author
 
-1. Install **XAMPP** or **Laragon**
-2. Clone or download this repository
-3. Import the database into MySQL
-4. Rename `db.example.php` to `db.php`
-5. Update database credentials in `db.php`
-6. Run the project via `localhost`
+Wuttichai Chookaew
+Computer Science Student
+Junior Web Developer (Intern)
 
----
+📍 Bangkok, Thailand
+📧 wuttichai-cho@rmutp.ac.th
 
-## Live Website
+⭐ Status
 
-🔗 https://www.comsci-rmutp.com/2568gp11/
-
----
-
-## What I Learned
-
-- Full-stack web development workflow
-- CRUD operations with PHP and MySQL
-- Database design and management
-- Handling user authentication
-- Uploading and managing images
-- Structuring a real-world web application
-
----
-
-## Author
-
-**Wuttichai Chookaew**  
-Computer Science Student  
-Rajamangala University of Technology Phra Nakhon  
-
-📍 Bangkok, Thailand  
-
----
-
-## Notes
-
-- Sensitive files such as `db.php` are excluded from this repository for security purposes.
-- This project is intended for educational and portfolio use.
+✔️ Completed
+✔️ Ready for internship / portfolio use
